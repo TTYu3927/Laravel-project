@@ -87,7 +87,7 @@
             <td>{{ $user->name }}</td>
             <td>{{ $user->email }}</td>
             <td class="actions">
-                <a class="button" href="/users/edit/{{ $user->id }}">Edit</a> 
+                <a class="button" href="/users/edit/{{ $user->id }}">Edit Name</a> 
                 <a class="buttond"href="/users/delete/{{ $user->id }}" onclick="return confirm('R U sure')">Delete</a> 
             </td>
         </tr>
